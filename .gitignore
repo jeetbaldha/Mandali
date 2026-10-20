@@ -1,0 +1,42 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+coverage/
+
+# Flutter and native build output
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+.gradle/
+.cxx/
+Pods/
+.symlinks/
+ephemeral/
+
+# Local editor and machine settings
+.idea/
+.vscode/
+*.iml
+local.properties
+.DS_Store
+Thumbs.db
+
+# Credentials and signing material
+key.properties
+*.jks
+*.keystore
+*.pem
+*.p12
+*.pfx
+
+# Temporary output and logs
+/output/
+/tmp/
+*.log
+__pycache__/
+*.pyc
